@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+}
+
+.navFlex {
+  display: flex;
+  background-image: linear-gradient(to right, rgb(110, 7, 110), rgb(227, 110, 231));
+  color: white;
+  padding: 7px 25px;
+  justify-content: space-between;
+}
+
+.navLogo {
+  display: flex;
+}
+
+.navIcon {
+  width: 50px;
+  object-fit: contain;
+  margin-right: 5px;
+}
+
+.heroInput {
+  border-radius: 5px;
+  padding: 6px 10px;
+  text-indent: 5px;
+  width: 45%;
+  border: 2px solid lightgrey;
+}
+
+.heroInputs {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 40px 16px 40px;
+}
+
+.heroButton {
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 5px;
+  height: 40px;
+  display: flex;
+  color: white;
+  background-image: linear-gradient(to right, rgb(110, 10, 110), rgb(227, 110, 231));
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.heroButtonIcon {
+  margin-left: 6px;
+  font-size: 17px;
+}
+
+.heroImg {
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+  margin-left: auto;
+  left: 0;
+  right: 0;
+  margin-right: auto;  
+  position: absolute;
+  top: 50px;
+}
+
+.heroImgFlex {
+  position: relative;
+  margin: auto;
+}
+
+.heroTopText {
+  text-align: center;
+  color: white;
+  width: 400px;
+  margin-left: auto;
+  left: 0;
+  text-shadow: 0px 0px 10px black;
+  right: 0;
+  top: 60px;
+  margin-right: auto;  
+  position: absolute;
+}
+
+.heroBottomText {
+  position: absolute;
+  text-align: center;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 0px 0px 10px black;
+  left: 0;
+  right: 0;
+  top: 255px;
+}
